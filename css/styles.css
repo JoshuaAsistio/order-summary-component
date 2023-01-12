@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.flex, .order-summary .subscription-plan, body {
+  display: flex;
+}
+
+.btn-block, .order-summary .btn-primary {
+  display: block;
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+}
+
+body {
+  background-color: hsl(225deg, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-illustration {
+  width: 327px;
+  min-height: 160px;
+  border-radius: 20px 20px 0 0;
+}
+
+.order-summary {
+  width: 327px;
+  border-radius: 0 0 20px 20px;
+  text-align: center;
+  padding: 20px 40px;
+  background-color: white;
+}
+.order-summary h1 {
+  font-size: 1rem;
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 900;
+}
+.order-summary .benefits {
+  font-size: 0.75rem;
+  color: hsl(224deg, 23%, 55%);
+  margin-top: 15px;
+}
+.order-summary .subscription-plan {
+  align-items: center;
+  width: 100%;
+  font-size: 0.75rem;
+  margin-top: 25px;
+}
+.order-summary .subscription-plan img {
+  height: 45px;
+  width: 45px;
+}
+.order-summary .subscription-plan .annual-plan {
+  margin-left: 20px;
+  margin-right: auto;
+}
+.order-summary .subscription-plan .annual-plan .plan {
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 900;
+}
+.order-summary .subscription-plan .annual-plan .price {
+  color: hsl(224deg, 23%, 55%);
+}
+.order-summary .subscription-plan .change-plan {
+  text-decoration: underline;
+  color: hsl(245deg, 75%, 52%);
+  font-weight: 900;
+  border: none;
+  background: transparent;
+}
+.order-summary .subscription-plan .change-plan:hover {
+  color: hsl(224deg, 23%, 55%);
+  cursor: pointer;
+}
+.order-summary .btn-primary {
+  margin-top: 22.5px;
+  border: none;
+  background-color: hsl(245deg, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  font-family: "Red Hat Display", sans-serif;
+  box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.order-summary .btn-primary:hover {
+  background-color: rgb(118, 108, 241);
+  cursor: pointer;
+}
+.order-summary .cancel-btn {
+  border: none;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 900;
+  margin-top: 15px;
+  background: transparent;
+}
+.order-summary .cancel-btn:hover {
+  color: hsl(223deg, 47%, 23%);
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
